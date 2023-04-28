@@ -1,0 +1,33 @@
+
+.contenedor-about{
+    background-color: rgba(15, 15, 15, 0.925);
+    padding: 30px;
+}
+
+.parrafo-about{
+    font-size: 18px;
+    color: whitesmoke;
+    line-height: 1.5;
+    max-width: 500px;
+    margin: 0 15px;
+    padding: 20px;
+    background-color: rgba(48, 145, 131, 0.288);
+    border-radius: 25px;
+    border: solid 2px rgba(48, 145, 131);
+
+  }
+  
+  @media only screen and (max-width: 768px) {
+.parrafo-about {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+.parrafo-about {
+      font-size: 14px;
+      padding: 5px;
+    }
+  }
+  

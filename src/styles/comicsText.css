@@ -1,0 +1,52 @@
+/* Estilos para dispositivos móviles */
+.text-comics {
+  background-color: #f2f2f2;
+}
+@media screen and (max-width: 767px) {
+  .text-comics {
+    padding: 2rem;
+  }
+  .text-comics h2 {
+    font-size: 2rem;
+  }
+  .text-comics p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Estilos para tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .text-comics {
+    padding: 4rem;
+  }
+  .text-comics h2 {
+    font-size: 3rem;
+  }
+  .text-comics p {
+    font-size: 1.5rem;
+  }
+}
+
+/* Estilos para laptops y desktops */
+@media screen and (min-width: 1024px) {
+  .text-comics {
+    padding: 6rem;
+  }
+  .text-comics h2 {
+    font-size: 4rem;
+  }
+  .text-comics p {
+    font-size: 1.8rem;
+  }
+}
+
+
+.container-comics {
+  display: flex;
+  flex-direction: row;
+  width: 99vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+

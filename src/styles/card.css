@@ -1,0 +1,106 @@
+.card-container {
+  width: 100vw; /* Ajusta este valor al ancho máximo que desees para la tarjeta */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+.item{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+
+
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding: 30px;
+
+}
+
+.card-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media screen and (min-width: 640px) {
+  .card-side {
+    flex-direction: column;
+  }
+}
+
+.card-title {
+  color:whitesmoke;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+
+.text {
+  color:whitesmoke;
+}
+
+@media screen and (min-width: 640px) {
+  .card-title {
+    font-size: 2rem;
+  }
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: rgba(51, 50, 50, 0.201);
+  border-radius: 30px;
+}
+
+@media screen and (min-width: 640px) {
+  .card-body {
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+}
+
+.card-actions {
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 640px) {
+  .card-actions {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card-container {
+    max-width: 1024px;
+  }
+
+  .card {
+    flex-direction: row;
+  }
+
+  .card-side {
+    flex-direction: column;
+  }
+
+  .card-title {
+    font-size: 2.5rem;
+  }
+
+  .card-body {
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+
+  .card-actions {
+    margin-top: 1rem;
+  }
+}

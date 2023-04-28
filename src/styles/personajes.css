@@ -1,0 +1,31 @@
+.container-personajes {
+    display: flex;
+    flex-direction: row;
+    width: 99vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+
+  }
+  
+  .card-personajes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    background-color: #1f1d1d;
+    border-radius: 5px;
+    height: auto;
+    color: #fff;
+  }
+  
+  .card-personajes img {
+
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
