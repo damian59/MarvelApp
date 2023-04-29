@@ -17,22 +17,22 @@ const Footer = () => {
                 </p>
                 </div>
                 <a
-                    href="https://github.com/sudiptob2/simple-react-footer"
-                    target="_blank"
+                    href='https://github.com/damian59/MarvelApp.git'
+                    
                     className="item3"
                 >
                     <FaGithub  />
                 </a>
                 <a
                     href="https://www.linkedin.com/in/damian-almanza"
-                    target="_blank"
+                    
                     className="item4"
                 >
                     <FaLinkedinIn  />
                 </a>
                 <a
-                    href="https://www.youtube.com/"
-                    target="_blank"
+                    href="https://www.youtube.com/watch?v=nxs13L5IOH0"
+                    
                     className="item5"
                 >
                    <FaYoutube/>

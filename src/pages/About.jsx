@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/about.css'
+import Marvel from '../assets/MARVELimg.png'
 
 const About = () => {
   return (
@@ -13,7 +14,8 @@ Además, se utilizó CSS puro para dar estilo a la página. Se implementaron est
 
 En resumen, este proyecto es una página web que muestra información detallada sobre los cómics de Marvel, construida con tecnologías como React, React Router y CSS puro. Es fácil de usar y permite a los usuarios explorar la vasta colección de cómics de Marvel.
         </p>
-        
+
+       <img src={Marvel} alt="" className='container-img' />
     </div>
   )
 }

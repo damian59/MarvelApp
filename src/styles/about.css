@@ -1,33 +1,60 @@
-
 .contenedor-about{
-    background-color: rgba(15, 15, 15, 0.925);
-    padding: 30px;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgba(15, 15, 15, 0.925);
+  padding: 0px 30px;
 }
 
 .parrafo-about{
-    font-size: 18px;
-    color: whitesmoke;
-    line-height: 1.5;
-    max-width: 500px;
-    margin: 0 15px;
-    padding: 20px;
-    background-color: rgba(48, 145, 131, 0.288);
-    border-radius: 25px;
-    border: solid 2px rgba(48, 145, 131);
+  font-size: 18px;
+  color: whitesmoke;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 0 15px;
+  padding: 20px;
+  background-color: rgba(48, 145, 131, 0.288);
+  border-radius: 25px;
+  border: solid 2px rgba(48, 145, 131);
+}
 
+.container-img{
+  width: 90%;
+  margin: 0%;
+  
+}
+
+@media only screen and (max-width: 1024px) {
+  .contenedor-about {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .parrafo-about {
+    margin: 15px 0;
   }
   
-  @media only screen and (max-width: 768px) {
-.parrafo-about {
-      font-size: 16px;
-      padding: 10px;
-    }
+  .container-img {
+    width: 80%;
   }
-  
-  @media only screen and (max-width: 480px) {
-.parrafo-about {
-      font-size: 14px;
-      padding: 5px;
-    }
+}
+
+@media only screen and (max-width: 768px) {
+  .parrafo-about {
+    font-size: 16px;
+    padding: 15px;
   }
-  
+
+  .container-img {
+    width: 100%;
+    margin: 15px 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .parrafo-about {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
