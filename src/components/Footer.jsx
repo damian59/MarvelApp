@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { FaGithub, FaYoutube, FaLinkedinIn } from "react-icons/fa";
 import '../styles/footer.css'
 const Footer = () => {
@@ -16,13 +17,11 @@ const Footer = () => {
                 Copyright © {year} - All right reserved.
                 </p>
                 </div>
-                <a
-                    href='https://github.com/damian59/MarvelApp.git'
-                    
-                    className="item3"
-                >
+                <Link to='https://github.com/damian59/MarvelApp.git' className='item3'>
+
                     <FaGithub  />
-                </a>
+                </Link>
+               
                 <a
                     href="https://www.linkedin.com/in/damian-almanza"
                     
